@@ -72,3 +72,85 @@ h1 {
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--rojo-oscuro) inset, 1px 1px 10px var(--luz);
 }
+
+
+
+
+/* asdasd */
+/* Carga la fuente Rubik en dos grosores */
+
+/* BEGIN (write your solution here) */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* END */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+
+  /* Estilos globales: fuente, color y fondo */
+
+  /* BEGIN (write your solution here) */
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  color: #fff;
+  background-color: #e5e5e5;
+  
+}
+  /* END */
+
+/* BEGIN (write your solution here) */
+.calendar {
+  width: 250px;
+  padding: 60px 60px 30px 60px;
+  background-color: #1e1f25;
+  border-radius: 12px;
+}
+
+.calendar-header {
+  margin-bottom: 0px 0px 30px 0px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+
+}
+
+.calendar-date {
+  width: 100%;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  line-height: 2;
+  border-bottom: 1px solid #313131;
+}
+
+tbody tr td {
+  color: #ccc;
+  text-align: center;
+  padding: 0;
+  line-height: 2.3;
+  cursor: pointer;
+}
+
+.calendar-todo {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.todo-time {
+  margin: 5px 0px 20px 0px;
+  font-style: 14px;
+}
+/* END */
+
+.rounded-green {
+  color: #fff;
+
+  background: #589c5f;
+  border-radius: 50%;
+}
